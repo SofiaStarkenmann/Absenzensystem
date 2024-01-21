@@ -54,3 +54,84 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2em;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.present {
+    background-color: #aaffaa;
+}
+
+.absent {
+    background-color: #ffaaaa;
+}
+
+.history {
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 2rem;
+}
+
+.status-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.präsent .circle { background-color: #00ff00; }
+.verspätet .circle { background-color: #ff8c00; }
+.dispensation-nicht-genehmigt .circle { background-color: #000000; }
+.abwesend .circle { background-color: #ff0000; }
+.ermahnt .circle { background-color: #ffffff; border: 1px solid #ff0000; }
+.genehmigte-dispensation .circle { background-color: #8a2be2; }
+.lehrer-krank .circle { background-color: #ff69b4; }
+
+

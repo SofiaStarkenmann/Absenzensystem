@@ -1,129 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="Absenzen@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.38">
-    <root id="1">
-      <DefaultCasing>lower/lower</DefaultCasing>
-      <DefaultEngine>InnoDB</DefaultEngine>
-      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
-      <Grants>|root||Sirirat||ALTER|G
-|root||root|localhost|ALTER|G
-|root||Sirirat||ALTER ROUTINE|G
-|root||root|localhost|ALTER ROUTINE|G
-|root||root|localhost|APPLICATION_PASSWORD_ADMIN|G
-|root||mysql.infoschema|localhost|AUDIT_ABORT_EXEMPT|G
-|root||mysql.session|localhost|AUDIT_ABORT_EXEMPT|G
-|root||mysql.sys|localhost|AUDIT_ABORT_EXEMPT|G
-|root||root|localhost|AUDIT_ABORT_EXEMPT|G
-|root||root|localhost|AUDIT_ADMIN|G
-|root||mysql.session|localhost|AUTHENTICATION_POLICY_ADMIN|G
-|root||root|localhost|AUTHENTICATION_POLICY_ADMIN|G
-|root||mysql.session|localhost|BACKUP_ADMIN|G
-|root||root|localhost|BACKUP_ADMIN|G
-|root||root|localhost|BINLOG_ADMIN|G
-|root||root|localhost|BINLOG_ENCRYPTION_ADMIN|G
-|root||mysql.session|localhost|CLONE_ADMIN|G
-|root||root|localhost|CLONE_ADMIN|G
-|root||mysql.session|localhost|CONNECTION_ADMIN|G
-|root||root|localhost|CONNECTION_ADMIN|G
-|root||Sirirat||CREATE|G
-|root||root|localhost|CREATE|G
-|root||root|localhost|CREATE ROLE|G
-|root||Sirirat||CREATE ROUTINE|G
-|root||root|localhost|CREATE ROUTINE|G
-|root||Sirirat||CREATE TABLESPACE|G
-|root||root|localhost|CREATE TABLESPACE|G
-|root||Sirirat||CREATE TEMPORARY TABLES|G
-|root||root|localhost|CREATE TEMPORARY TABLES|G
-|root||Sirirat||CREATE USER|G
-|root||root|localhost|CREATE USER|G
-|root||Sirirat||CREATE VIEW|G
-|root||root|localhost|CREATE VIEW|G
-|root||Sirirat||DELETE|G
-|root||root|localhost|DELETE|G
-|root||Sirirat||DROP|G
-|root||root|localhost|DROP|G
-|root||root|localhost|DROP ROLE|G
-|root||root|localhost|ENCRYPTION_KEY_ADMIN|G
-|root||Sirirat||EVENT|G
-|root||root|localhost|EVENT|G
-|root||Sirirat||EXECUTE|G
-|root||root|localhost|EXECUTE|G
-|root||Sirirat||FILE|G
-|root||root|localhost|FILE|G
-|root||mysql.infoschema|localhost|FIREWALL_EXEMPT|G
-|root||mysql.session|localhost|FIREWALL_EXEMPT|G
-|root||mysql.sys|localhost|FIREWALL_EXEMPT|G
-|root||root|localhost|FIREWALL_EXEMPT|G
-|root||root|localhost|FLUSH_OPTIMIZER_COSTS|G
-|root||root|localhost|FLUSH_STATUS|G
-|root||root|localhost|FLUSH_TABLES|G
-|root||root|localhost|FLUSH_USER_RESOURCES|G
-|root||root|localhost|GROUP_REPLICATION_ADMIN|G
-|root||root|localhost|GROUP_REPLICATION_STREAM|G
-|root||Sirirat||INDEX|G
-|root||root|localhost|INDEX|G
-|root||root|localhost|INNODB_REDO_LOG_ARCHIVE|G
-|root||root|localhost|INNODB_REDO_LOG_ENABLE|G
-|root||Sirirat||INSERT|G
-|root||root|localhost|INSERT|G
-|root||Sirirat||LOCK TABLES|G
-|root||root|localhost|LOCK TABLES|G
-|root||root|localhost|PASSWORDLESS_USER_ADMIN|G
-|root||mysql.session|localhost|PERSIST_RO_VARIABLES_ADMIN|G
-|root||root|localhost|PERSIST_RO_VARIABLES_ADMIN|G
-|root||Sirirat||PROCESS|G
-|root||root|localhost|PROCESS|G
-|root||Sirirat||REFERENCES|G
-|root||root|localhost|REFERENCES|G
-|root||Sirirat||RELOAD|G
-|root||root|localhost|RELOAD|G
-|root||Sirirat||REPLICATION CLIENT|G
-|root||root|localhost|REPLICATION CLIENT|G
-|root||Sirirat||REPLICATION SLAVE|G
-|root||root|localhost|REPLICATION SLAVE|G
-|root||root|localhost|REPLICATION_APPLIER|G
-|root||root|localhost|REPLICATION_SLAVE_ADMIN|G
-|root||root|localhost|RESOURCE_GROUP_ADMIN|G
-|root||root|localhost|RESOURCE_GROUP_USER|G
-|root||root|localhost|ROLE_ADMIN|G
-|root||Sirirat||SELECT|G
-|root||mysql.infoschema|localhost|SELECT|G
-|root||root|localhost|SELECT|G
-|root||root|localhost|SENSITIVE_VARIABLES_OBSERVER|G
-|root||root|localhost|SERVICE_CONNECTION_ADMIN|G
-|root||mysql.session|localhost|SESSION_VARIABLES_ADMIN|G
-|root||root|localhost|SESSION_VARIABLES_ADMIN|G
-|root||root|localhost|SET_USER_ID|G
-|root||Sirirat||SHOW DATABASES|G
-|root||root|localhost|SHOW DATABASES|G
-|root||Sirirat||SHOW VIEW|G
-|root||root|localhost|SHOW VIEW|G
-|root||root|localhost|SHOW_ROUTINE|G
-|root||Sirirat||SHUTDOWN|G
-|root||mysql.session|localhost|SHUTDOWN|G
-|root||root|localhost|SHUTDOWN|G
-|root||Sirirat||SUPER|G
-|root||mysql.session|localhost|SUPER|G
-|root||root|localhost|SUPER|G
-|root||mysql.infoschema|localhost|SYSTEM_USER|G
-|root||mysql.session|localhost|SYSTEM_USER|G
-|root||mysql.sys|localhost|SYSTEM_USER|G
-|root||root|localhost|SYSTEM_USER|G
-|root||mysql.session|localhost|SYSTEM_VARIABLES_ADMIN|G
-|root||root|localhost|SYSTEM_VARIABLES_ADMIN|G
-|root||root|localhost|TABLE_ENCRYPTION_ADMIN|G
-|root||root|localhost|TELEMETRY_LOG_ADMIN|G
-|root||Sirirat||TRIGGER|G
-|root||root|localhost|TRIGGER|G
-|root||Sirirat||UPDATE|G
-|root||root|localhost|UPDATE|G
-|root||root|localhost|XA_RECOVER_ADMIN|G
-|root||Sirirat||grant option|G
-|root||root|localhost|grant option|G
-performance_schema|schema||mysql.session|localhost|SELECT|G
-sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
-      <ServerVersion>8.0.34</ServerVersion>
-    </root>
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.49">
+    <root id="1"/>
     <collation id="2" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
     </collation>
@@ -1122,24 +1000,24 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <column id="316" parent="310" name="ID">
-      <DataType>int|0s</DataType>
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="317" parent="310" name="Datum">
-      <DataType>date|0s</DataType>
+      <DasType>date|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="318" parent="310" name="Status">
-      <DataType>varchar(50)|0s</DataType>
+      <DasType>varchar(50)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="319" parent="310" name="Kommentar">
-      <DataType>text|0s</DataType>
+      <DasType>text|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="320" parent="310" name="Lernender_ID">
-      <DataType>int|0s</DataType>
+      <DasType>int|0s</DasType>
       <Position>5</Position>
     </column>
     <foreign-key id="321" parent="310" name="absenz_ibfk_1">
@@ -1152,25 +1030,25 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="323" parent="310" name="PRIMARY">
-      <ColNames>ID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>ID</UnderlyingIndexColNames>
     </key>
     <column id="324" parent="311" name="ID">
-      <DataType>int|0s</DataType>
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="325" parent="311" name="Datum">
-      <DataType>date|0s</DataType>
+      <DasType>date|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="326" parent="311" name="Fach_ID">
-      <DataType>int|0s</DataType>
+      <DasType>int|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="327" parent="311" name="Absenz_ID">
-      <DataType>int|0s</DataType>
+      <DasType>int|0s</DasType>
       <Position>4</Position>
     </column>
     <foreign-key id="328" parent="311" name="absenzhistorie_ibfk_1">
@@ -1192,71 +1070,71 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="332" parent="311" name="PRIMARY">
-      <ColNames>ID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>ID</UnderlyingIndexColNames>
     </key>
     <column id="333" parent="312" name="ID">
-      <DataType>int|0s</DataType>
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="334" parent="312" name="Name">
-      <DataType>varchar(255)|0s</DataType>
+      <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
     <key id="335" parent="312" name="PRIMARY">
-      <ColNames>ID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>ID</UnderlyingIndexColNames>
     </key>
     <column id="336" parent="313" name="ID">
-      <DataType>int|0s</DataType>
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="337" parent="313" name="Name">
-      <DataType>varchar(255)|0s</DataType>
+      <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
     <key id="338" parent="313" name="PRIMARY">
-      <ColNames>ID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>ID</UnderlyingIndexColNames>
     </key>
     <column id="339" parent="314" name="ID">
-      <DataType>int|0s</DataType>
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="340" parent="314" name="Name">
-      <DataType>varchar(255)|0s</DataType>
+      <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="341" parent="314" name="Benutzername">
-      <DataType>varchar(50)|0s</DataType>
+      <DasType>varchar(50)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="342" parent="314" name="Passwort">
-      <DataType>varchar(50)|0s</DataType>
+      <DasType>varchar(50)|0s</DasType>
       <Position>4</Position>
     </column>
     <key id="343" parent="314" name="PRIMARY">
-      <ColNames>ID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>ID</UnderlyingIndexColNames>
     </key>
     <column id="344" parent="315" name="ID">
-      <DataType>int|0s</DataType>
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="345" parent="315" name="Name">
-      <DataType>varchar(255)|0s</DataType>
+      <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
     <column id="346" parent="315" name="Klasse_ID">
-      <DataType>int|0s</DataType>
+      <DasType>int|0s</DasType>
       <Position>3</Position>
     </column>
     <foreign-key id="347" parent="315" name="lernender_ibfk_1">
@@ -1269,9 +1147,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Type>btree</Type>
     </index>
     <key id="349" parent="315" name="PRIMARY">
-      <ColNames>ID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
+      <UnderlyingIndexColNames>ID</UnderlyingIndexColNames>
     </key>
   </database-model>
 </dataSource>

@@ -1,1 +1,446 @@
-<p>hi hallo hey hoii</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+</head>
+<body>
+
+<form id="absence-form">
+    <label for="class">Class:</label>
+    <select id="class" name="class">
+        <option value="ME21a">ME21a</option>
+        <option value="ME21b">ME21b</option>
+        <option value="ME21c">ME21c</option>
+        <option value="ME21d">ME21d</option>
+    </select>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date">
+
+    <label for="lessons">Lessons:</label>
+    <select id="lessons" name="lessons">
+        <option value="M280">M280</option>
+        <option value="M285">M285</option>
+        <option value="M269">M269</option>
+        <option value="M305">M305</option>
+        <option value="M305">M290</option>
+    </select>
+
+    <label for="status">Status:</label>
+    <select id="status" name="status">
+        <option value="Alle">Alle</option>
+        <option value="Anwesend">Anwesend</option>
+        <option value="Abwesend">Abwesend</option>
+        <option value="Verspätet">Verspätet</option>
+        <option value="Ermahnt">Ermahnt</option>
+        <option value="Nicht bewilligte Dispensation ">Nicht bewilligte Dispensation </option>
+        <option value="Bewilligte Dispensation ">Bewilligte Dispensation </option>
+        <option value=" Lehrperson ist krank"> Lehrperson ist krank</option>
+    </select>
+</form>
+
+<table>
+    <thead>
+    <tr>
+        <th>Schüler</th>
+        <th>Modul 280</th>
+        <th>Modul 290</th>
+        <th>Modul 285</th>
+        <th>Modul 269</th>
+        <th>Modul 305</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input type="radio" name="selectAll" class="selectAll1">
+            07:45 - 09:20
+        </td>
+        <td>
+            <input type="radio" name="selectAll" class="selectAll2">
+            09:25 - 11:15
+        </td>
+        <td>
+            <input type="radio" name="selectAll" class="selectAll3">
+            11:20 - 12.05
+        </td>
+        <td>
+            <input type="radio" name="selectAll" class="selectAll4">
+            13:00 - 14:35
+        </td>
+        <td>
+            <input type="radio" name="selectAll" class="selectAll5">
+            14:50 - 16:25
+        </td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Schüler 1</td>
+        <td>
+            <div>
+                <input type="checkbox" name="lesson1" class="checkbox1">
+                <textarea name="comments1" class="comments1"></textarea>
+            </div>
+        </td>
+        <td>
+            <div>
+                <input type="checkbox" name="lesson2" class="checkbox2">
+                <textarea name="comments2" class="comments2"></textarea>
+            </div>
+        </td>
+        <td>
+            <div>
+                <input type="checkbox" name="lesson3" class="checkbox3">
+                <textarea name="comments3" class="comments3"></textarea>
+            </div>
+        </td>
+        <td>
+            <div>
+                <input type="checkbox" name="lesson4" class="checkbox4">
+                <textarea name="comments4" class="comments4"></textarea>
+            </div>
+        </td>
+        <td>
+            <div>
+                <input type="checkbox" name="lesson5" class="checkbox5">
+                <textarea name="comments5" class="comments5"></textarea>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Schüler 2</td>
+        <td>
+            <div>
+                <input type="checkbox" name="lesson1" class="checkbox1">
+                <textarea name="comments1" class="comments1"></textarea>
+            </div>
+        </td>
+        <td>
+            <div>
+                <input type="checkbox" name="lesson2" class="checkbox2">
+                <textarea name="comments2" class="comments2"></textarea>
+            </div>
+        </td>
+        <td>
+            <div>
+                <input type="checkbox" name="lesson3" class="checkbox3">
+                <textarea name="comments3" class="comments3"></textarea>
+            </div>
+        </td>
+        <td>
+            <div>
+                <input type="checkbox" name="lesson4" class="checkbox4">
+                <textarea name="comments4" class="comments4"></textarea>
+            </div>
+        </td>
+        <td>
+            <div>
+                <input type="checkbox" name="lesson5" class="checkbox5">
+                <textarea name="comments5" class="comments5"></textarea>
+            </div>
+        </td>
+    </tr>
+    <td>Schüler 3</td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson1" class="checkbox1">
+            <textarea name="comments1" class="comments1"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson2" class="checkbox2">
+            <textarea name="comments2" class="comments2"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson3" class="checkbox3">
+            <textarea name="comments3" class="comments3"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson4" class="checkbox4">
+            <textarea name="comments4" class="comments4"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson5" class="checkbox5">
+            <textarea name="comments5" class="comments5"></textarea>
+        </div>
+    </td>
+    </tr>
+    <td>Schüler 4</td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson1" class="checkbox1">
+            <textarea name="comments1" class="comments1"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson2" class="checkbox2">
+            <textarea name="comments2" class="comments2"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson3" class="checkbox3">
+            <textarea name="comments3" class="comments3"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson4" class="checkbox4">
+            <textarea name="comments4" class="comments4"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson5" class="checkbox5">
+            <textarea name="comments5" class="comments5"></textarea>
+        </div>
+    </td>
+    </tr>
+    <td>Schüler 5</td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson1" class="checkbox1">
+            <textarea name="comments1" class="comments1"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson2" class="checkbox2">
+            <textarea name="comments2" class="comments2"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson3" class="checkbox3">
+            <textarea name="comments3" class="comments3"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson4" class="checkbox4">
+            <textarea name="comments4" class="comments4"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson5" class="checkbox5">
+            <textarea name="comments5" class="comments5"></textarea>
+        </div>
+    </td>
+    </tr>
+    <td>Schüler 6</td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson1" class="checkbox1">
+            <textarea name="comments1" class="comments1"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson2" class="checkbox2">
+            <textarea name="comments2" class="comments2"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson3" class="checkbox3">
+            <textarea name="comments3" class="comments3"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson4" class="checkbox4">
+            <textarea name="comments4" class="comments4"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson5" class="checkbox5">
+            <textarea name="comments5" class="comments5"></textarea>
+        </div>
+    </td>
+    </tr>
+    <td>Schüler 7</td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson1" class="checkbox1">
+            <textarea name="comments1" class="comments1"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson2" class="checkbox2">
+            <textarea name="comments2" class="comments2"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson3" class="checkbox3">
+            <textarea name="comments3" class="comments3"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson4" class="checkbox4">
+            <textarea name="comments4" class="comments4"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson5" class="checkbox5">
+            <textarea name="comments5" class="comments5"></textarea>
+        </div>
+    </td>
+    </tr>
+    <td>Schüler 8</td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson1" class="checkbox1">
+            <textarea name="comments1" class="comments1"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson2" class="checkbox2">
+            <textarea name="comments2" class="comments2"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson3" class="checkbox3">
+            <textarea name="comments3" class="comments3"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson4" class="checkbox4">
+            <textarea name="comments4" class="comments4"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson5" class="checkbox5">
+            <textarea name="comments5" class="comments5"></textarea>
+        </div>
+    </td>
+    </tr>
+    <td>Schüler 9</td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson1" class="checkbox1">
+            <textarea name="comments1" class="comments1"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson2" class="checkbox2">
+            <textarea name="comments2" class="comments2"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson3" class="checkbox3">
+            <textarea name="comments3" class="comments3"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson4" class="checkbox4">
+            <textarea name="comments4" class="comments4"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson5" class="checkbox5">
+            <textarea name="comments5" class="comments5"></textarea>
+        </div>
+    </td>
+    </tr>
+    <td>Schüler 10</td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson1" class="checkbox1">
+            <textarea name="comments1" class="comments1"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson2" class="checkbox2">
+            <textarea name="comments2" class="comments2"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson3" class="checkbox3">
+            <textarea name="comments3" class="comments3"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson4" class="checkbox4">
+            <textarea name="comments4" class="comments4"></textarea>
+        </div>
+    </td>
+    <td>
+        <div>
+            <input type="checkbox" name="lesson5" class="checkbox5">
+            <textarea name="comments5" class="comments5"></textarea>
+        </div>
+    </td>
+    </tr>
+
+    </tr>
+    <!-- Weitere Zeilen für Schüler hier einfügen -->
+    </tbody>
+</table>
+
+
+
+<footer>
+    <div class="status-box">
+        <div class="status-item präsent">
+            <div class="circle"></div>
+            Präsent
+        </div>
+        <div class="status-item verspätet">
+            <div class="circle"></div>
+            Verspätet
+        </div>
+        <div class="status-item dispensation-nicht-genehmigt">
+            <div class="circle"></div>
+            Dispensation nicht genehmigt
+        </div>
+        <div class="status-item abwesend">
+            <div class="circle"></div>
+            Abwesend
+        </div>
+        <div class="status-item ermahnt">
+            <div class="circle"></div>
+            Ermahnt
+        </div>
+        <div class="status-item genehmigte-dispensation">
+            <div class="circle"></div>
+            Genehmigte Dispensation
+        </div>
+        <div class="status-item lehrer-krank">
+            <div class="circle"></div>
+            Lehrer krank
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
